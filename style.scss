@@ -178,6 +178,23 @@ $hover-cta:#1e1a3b;
     padding: 20px;
     margin: 30px 10px;
     height: 100%;
+    
+  }
+
+  @media (max-width: 767px) {
+    .row.align-items-start {
+      flex-direction: column; /* Imposta la direzione del flex container a colonna */
+    }
+  
+    .buddhify-box {
+      margin: 15px 0; /* Riduci il margin top/bottom e azzera il margin laterale */
+      height: auto; /* Rimuovi l'altezza fissa per adattarsi al contenuto */
+    }
+  
+    .col {
+      flex-basis: auto !important; /* Rimuovi la base flessibile predefinita */
+      max-width: 100% !important; /* Fai occupare tutta la larghezza */
+    }
   }
   
   .row {
