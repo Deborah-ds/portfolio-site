@@ -1,0 +1,259 @@
+//===variabili===
+$light-background:#f8f9fa;
+$primary-colour:#222222;
+$secondary-colour:#7b7b7b;
+$principal-colour:#675da5;
+$box-shadow-color:rgba(0,0,0,0.05);
+$font-main:sans-serif;
+$hover-cta:#1e1a3b;
+
+/*===navbar===*/
+.navbar{
+    background-color: $light-background;
+    padding:0.8rem 1rem;
+    box-shadow: 0 2px 6px $box-shadow-color;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+//logo brand
+.navbar-brand{
+    img{
+        max-height: 50px;
+    }
+}
+
+//voci del menu
+    .nav-link{
+        color:$secondary-colour;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        transition:color 0.2s ease;
+
+        &:hover{
+            color:$primary-colour;
+            text-decoration: underline;
+        }
+
+        &.active{
+            color:$principal-colour;
+            pointer-events: none;
+            cursor:default;
+        }
+
+    }
+
+
+
+//bottone contatti
+.btn{
+    background-color:$principal-colour;
+    color: $light-background;
+    border-color: $hover-cta;
+
+    &:hover{
+        background-color: $hover-cta;
+    }
+}
+
+// === Voce CTA con icona freccia ===
+.nav-cta {
+    text-decoration: underline;
+  }
+
+  // === Bottone hamburger ===
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    padding: 0.4rem;
+  
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(103,93,165, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  
+  // === Media Query per mobile ===
+  @media (max-width: 767.98px) {
+    .navbar-nav {
+      gap: 0.5rem;
+  
+      .nav-link {
+        padding-left: 0;
+      }
+    }
+  
+    .nav-cta {
+      margin-left: 0;
+      justify-content: center;
+    }
+  }
+
+ // === Typography ===
+
+  h1 {
+    text-align: left;
+    font-size: 34px;
+    margin-top: 30px;
+  
+    @media (min-width: 768px) {
+      font-size: 48px;
+    }
+  }
+  
+  
+  
+  h2 {
+    color: $primary-colour;
+    margin-bottom: 20px;
+    font-size: 28px;
+  
+    @media (min-width: 768px) {
+      font-size: 40px;
+    }
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: $principal-colour;
+    text-align: left;
+  
+    @media (min-width: 768px) {
+      font-size: 34px;
+    }
+  }
+  
+  h4 {
+    font-size: 22px;
+    color:$secondary-colour;
+    text-align: left;
+  
+    @media (min-width: 768px) {
+      font-size: 28px;
+    }
+  }
+
+  h5 {
+    font-size: 20px;
+  
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+  }
+  
+  p {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .icon {
+    height: 300px;
+  }
+
+   // === Struttura ===
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+  .col {
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .buddhify-box {
+    background-color: white;
+    border: 1px solid $box-shadow-color;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px $box-shadow-color;
+    padding: 20px;
+    margin: 30px 10px;
+    height: 100%;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  svg[class^="bi"] {
+    fill: $principal-colour;
+  }
+
+  .bi {
+    height: 24px;
+    width: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .competitor {
+    margin-left: -50px;
+    border: 1px solid $box-shadow-color;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px $box-shadow-color;
+  }
+  
+  .competitor-calm {
+    margin-left: 50px;
+    border: 1px solid $box-shadow-color;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px $box-shadow-color;
+  }
+  
+  .single-image {
+    border: 1px solid $box-shadow-color;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px $box-shadow-color;
+    margin-top: 20px;
+  }
+  
+  .img-box {
+    width: 30%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  //pagina contatti
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid $secondary-colour;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    margin-top: 1rem;
+  }
+  
+  .col-md-6:last-child {
+    p {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+  }

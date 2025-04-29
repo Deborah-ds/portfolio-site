@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Deborah De Santis</title>
+    <link rel="icon" type="image/png" href="Assets/img/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 <!--navbar-->
-  <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
-    <div class="container">
+  <header class="navbar navbar-expand-md bg-body-tertiary sticky-top">
       <a class="navbar-brand" href="index.html">
         <img src="Assets/img/favicon.png" alt="Logo Dikya, clicca per tornare in homepage" width="30">
       </a>
@@ -21,17 +21,16 @@
       </button>
   
       <!-- Menu nav -->
+      
       <div class="collapse navbar-collapse" id="menuNav">
         <div class="navbar-nav ms-auto">
           <a class="nav-link active" href="index.html">Homepage</a>
           <a class="nav-link" href="about-me.html">About me</a>
-          <a class="nav-link nav-cta" href="contacts.html">Contattami<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-          </svg></a>
+          <a class="nav-link nav-cta" href="contacts.html">Contattami</a>
         </div>
       </div>
     </div>
-  </nav>
+  </header>
   
     <!-- JS Bootstrap (funziona con toggler) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -52,51 +51,51 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <!--sezione percorso-->
     <div class="container text-center my-5">
-      <h2>Il mio percorso in breve</h2>
+      <h2>Il mio percorso in breve</h2><br>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
             <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
           </svg>
-          <h3>Graphic design</h3>
-          <p>Ho studiato graphic design, approfondendo sia la grafica stampata che quella digitale.</p></div>
+          <h4 class="text-center">Graphic design</h4>
+          <p class="text-center">Ho studiato graphic design, approfondendo sia la grafica stampata che quella digitale.</p></div>
         <div class="col">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
             <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
           </svg>
-          <h3>Psicologia</h3>
-          <p>All’università scopro la psicologia cognitiva e della comunicazione, esplorando il suo l’impatto nel design e nell’esperienza utente. </p>
+          <h4 class="text-center">Psicologia</h4>
+          <p class="text-center">All’università scopro la psicologia cognitiva e della comunicazione, esplorando il suo l’impatto nel design e nell’esperienza utente. </p>
         </div>
         <div class="col">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
             <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
           </svg>
-          <h3>Graphic & Web designer</h3>
-          <p>Ho lavorato come Graphic & Web designer, realizzando grafiche statiche e motion per i social media e progettando interfacce per siti web e app.</p>
+          <h4 class="text-center">Graphic & Web designer</h4>
+          <p class="text-center">Ho lavorato come Graphic & Web designer, realizzando grafiche statiche e motion per i social media e progettando interfacce per siti web e app.</p>
         </div>
         <div class="col">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
   <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
 </svg>
-          <h3>UX/UI designer</h3>
-          <p>Mi sto specializzando in UX/UI design, studiando user research, wireframing, prototyping e user testing per creare esperienze digitali intuitive. </p>
+          <h4 class="text-center">UX/UI designer</h4>
+          <p class="text-center">Mi sto specializzando in UX/UI design, studiando user research, wireframing, prototyping e user testing per creare esperienze digitali intuitive. </p>
         </div>
       </div>
 <!--titolo sezione-->
-<div class="title text-center">
+<div class="container text-center">
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
     <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5"/>
   </svg>
   <h2>UX/UI CASE STUDY</h2>
-    <p>Restyling del sito web Buddhify</p>
+    <p class="text-center">Restyling del sito web Buddhify</p>
 </div>
 
  <!-- Prima sezione Buddhify -->
- <div class="container text-center mt-5">
+ <div class="container">
   <div class="row">
-    <div class="col d-flex align-items-center justify-content-center">
+    <div class="col d-flex">
       <h3>BUDDHIFY</h3>
       <p>Durante il mio master in UI/UX design, ho realizzato il restyling del sito Buddhify, un’app di meditazione. Ho affrontato tutte le fasi del processo di design: dall’analisi iniziale del sito alla creazione di soluzioni innovative per migliorare l’accessibilità, l’usabilità e l’esperienza complessiva. L’obiettivo principale è stato rendere il sito più intuitivo, accessibile e adatto alle esigenze degli utenti.</p>
     </div>
@@ -110,23 +109,23 @@
 <div class="container text-center">
   <div class="row align-items-start">
     <div class="col buddhify-box">
-     <h3>Contesto</h3>
-     <p>Buddhify è un’app di meditazione innovativa fondata da Rohan Gunatillake per rendere la mindfulness accessibile alla vita moderna. Basata sul concetto di “meditazione in movimento,” permette di praticare consapevolezza ovunque, trasformando momenti quotidiani in opportunità di benessere.</p>
+     <h4 class="text-center">Contesto</h4>
+     <p class="text-center">Buddhify è un’app di meditazione innovativa fondata da Rohan Gunatillake per rendere la mindfulness accessibile alla vita moderna. Basata sul concetto di “meditazione in movimento,” permette di praticare consapevolezza ovunque, trasformando momenti quotidiani in opportunità di benessere.</p>
     </div>
     <div class="col buddhify-box">
-      <h3>Obiettivo</h3>
-      <p>Migliorare l’esperienza utente del sito Buddhify adottando un approccio user-centered, ottimizzando usabilità e accessibilità. Attraverso l’analisi di target, esigenze e comportamenti, ho progettato soluzioni intuitive e inclusive per rendere la navigazione più semplice e l’interazione più efficace.</p>    
+      <h4 class="text-center">Obiettivo</h4>
+      <p class="text-center">Migliorare l’esperienza utente del sito Buddhify adottando un approccio user-centered, ottimizzando usabilità e accessibilità. Attraverso l’analisi di target, esigenze e comportamenti, ho progettato soluzioni intuitive e inclusive per rendere la navigazione più semplice e l’interazione più efficace.</p>    
     </div>
     <div class="col buddhify-box">
-      <h3>Strumenti</h3>
-      <p>FigJam<br>Miro<br>Figma<br>Google Form</p>
+      <h4 class="text-center">Strumenti</h4>
+      <p class="text-center">FigJam<br>Miro<br>Figma<br>Google Form</p>
     </div>
   </div>
 </div>
 
  <!-- Sezione Design Process -->
 <div class="container text-center my-5">
-  <h3 class="mb-4">Design process</h3>
+  <h4 class="text-center">Design process</h4><br>
   <div class="row row-cols-1 row-cols-md-5 g-4 align-items-start">
     
     <div class="col">
@@ -135,8 +134,8 @@
         <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
         <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
       </svg>
-      <h4>Discovery</h4>
-      <p>Analisi euristica<br>Accessibilità<br>Competitor<br>Sitemap<br>Sondaggi</p>
+      <h5>Discovery</h5>
+      <p class="text-center">Analisi euristica<br>Accessibilità<br>Competitor<br>Sitemap<br>Sondaggi</p>
     </div>
 
     <div class="col">
@@ -144,24 +143,24 @@
         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
         <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
       </svg>
-      <h4>Define</h4>
-      <p>User personas<br>User journey</p>
+      <h5>Define</h5>
+      <p class="text-center">User personas<br>User journey</p>
     </div>
 
     <div class="col">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-diagram-3" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5zM0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
       </svg>
-      <h4>Ideate</h4>
-      <p>New sitemap</p>
+      <h5>Ideate</h5>
+      <p class="text-center">New sitemap</p>
     </div>
 
     <div class="col">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette2" viewBox="0 0 16 16">
         <path d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 .5.5v5.277l4.147-4.131a.5.5 0 0 1 .707 0l3.535 3.536a.5.5 0 0 1 0 .708L10.261 10H15.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H3a3 3 0 0 1-2.121-.879A3 3 0 0 1 0 13.044m6-.21 7.328-7.3-2.829-2.828L6 7.188zM4.5 13a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0M15 15v-4H9.258l-4.015 4zM0 .5v12.495zm0 12.495V13z"/>
       </svg>
-      <h4>Design</h4>
-      <p>Wireframes<br>Design system<br>Prototype</p>
+      <h5>Design</h5>
+      <p class="text-center">Wireframes<br>Design system<br>Prototype</p>
     </div>
 
     <div class="col">
@@ -169,14 +168,319 @@
         <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
         <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5z"/>
       </svg>
-      <h4>User test</h4>
-      <p>Usability test</p>
+      <h5>User test</h5>
+      <p class="text-center">Usability test</p>
     </div>
 
   </div> <!-- fine row -->
 </div>
+<!-- Sezione competitor analysis -->
+<div class="container text-center mt-5">
+  <div class="row">
+    <div class="col d-flex">
+      <h4>Competitor Analysis</h4>
+      <p>L'analisi dei competitor evidenzia che Buddhify si distingue nel panorama delle app di meditazione grazie a una proposta chiara e coerente. Tuttavia, la mancanza di una prova gratuita e di elementi interattivi sul sito limita il coinvolgimento dei nuovi utenti. Nonostante la comunicazione dettagliata delle funzionalità, alcuni contenuti risultano ridondanti.</p>
+    </div>
+    <div class="col">
+      <img class="competitor" src="Assets/img/headspace.jpg" alt="Headspace, competitor di Buddhify" height="150px">
+      <img class="competitor-calm" src="Assets/img/calm.png" alt="Calm, competitor di Buddhify" height="150px">
+    </div>
+</div>
+</div>
+<!-- Sezione accessibility -->
+<div class="container text-center mt-5">
+  <div class="row">
+    <div class="col">
+      <img class="single-image" src="Assets/img/wave.png" alt="Analisi di accessibilità con wave" height="250px">
+    </div>
+    <div class="col d-flex">
+      <h4>Accessibility analysis</h4>
+      <p>L’analisi ha evidenziato diverse criticità legate all’accessibilità del sito. Le immagini non hanno testo alternativo, compromettendo l’esperienza per chi usa screen reader. Il contrasto tra testo e sfondo è spesso insufficiente, così come manca la definizione della lingua del documento. La struttura semantica è poco chiara, con un uso incoerente delle intestazioni. Inoltre, alcuni pulsanti e campi modulo non sono etichettati correttamente e, su mobile, i touch target risultano troppo piccoli per un’interazione comoda.</p>
+    </div>
+</div>
+</div>
+<!-- Sezione Survey -->
+<div class="container mt-5">
+  <div class="row align-items-start">
+    
+    <!-- Colonna con il testo -->
+    <div class="col-md-5">
+      <h4>Survey</h4>
+      <p>
+        Per orientare il progetto in chiave user-centered, è stato somministrato un questionario a 41 persone. I dati raccolti hanno evidenziato che la maggior parte non medita regolarmente, dedica poco tempo (5–10 minuti) e ha orari variabili. Solo il 19% spenderebbe fino a 5 euro. Le principali motivazioni sono la gestione di stress e ansia, con preferenza per tecniche semplici e guidate. Questi insight hanno indirizzato il redesign verso soluzioni accessibili, semplici e flessibili.
+      </p>
+    </div>
+  </div>
+</div>
+<!--sezione user personas-->
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col buddhify-box">
+     <h5>Emily</h5>
+     <img src="Assets/img/emily.jpg" alt="Ritratto di Emily, professionista in carriera" class="single-image" style="width: 50%;">
+     <p>Ruolo: professionista in carriera, spesso in viaggio.<br>
+      Età: 27 anni.<br>
+      Emily è una consulente aziendale che viaggia spesso per lavoro. Cerca un’app con meditazioni brevi e accessibili, preferibilmente gratuite o economiche. Fatica a trovare tempo e spazi tranquilli per meditare, e preferisce soluzioni intuitive con promemoria utili</p>
+    </div>
+    <div class="col buddhify-box">
+      <h5>Danielle</h5>
+      <img src="Assets/img/danielle.jpg" alt="Ritratto di Danielle, mamma e digital marketer full time" class="single-image" style="width: 50%;">
+      <p>Ruolo: Mamma e Digital Marketer in full remote.<br>
+        Età: 36 anni.<br>
+        Danielle lavora da casa, gestendo il marketing e la famiglia. Cerca un’app con meditazioni brevi per le sue pause e sessioni serali da fare con i figli. È disposta a pagare per un’app che soddisfi le sue esigenze. La sua difficoltà è trovare tempo per sé e gestire lavoro e famiglia.</p>    
+    </div>
+    <div class="col buddhify-box">
+      <h5>Marc</h5>
+      <img src="Assets/img/marc.jpg" alt="Ritratto di Marc, insegnante a tempo pieno" class="single-image" style="width: 50%;">
+      <p>Ruolo:insegnante a tempo pieno<br>età:55 anni<br>Marc è un insegnante a tempo pieno che vuole iniziare a meditare per gestire lo stress. Non hai mai praticato perciò cerca un’app semplice e intuitiva, con un periodo di prova gratuito. È scettico nel pagare. Le sue difficoltà sono non sapere da dove cominciare e cercare soluzioni per rilassarsi.</p>
+    </div>
+  </div>
+</div>
+<!--pain point-->
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <h4 class="text-center">Pain point</h4>
+      <p class="text-center">Assenza di una prova gratuita</p>
+    </div>
+    <div class="col">
+      <h4 class="text-center">Pain point</h4>
+      <p class="text-center">Difficoltà nel trovare la sezione dedicata alla meditazione con figli</p>
+    </div>
+    <div class="col">
+      <h4 class="text-center">Pain point</h4>
+      <p class="text-center">Mancanza di una prova gratuita o di un sistema interattivo per chi si avvicina per la prima volta alla meditazione</p>
+    </div>
+  </div>
+
+<!--opportunità-->
+  <div class="row">
+    <div class="col">
+      <h4 class="text-center">Opportunità</h4>
+      <p class="text-center">Implementare una prova gratuita dell’app, indicata da un banner in specifiche pagine del sito, per consentire agli utenti di sperimentare i benefici della meditazione prima di impegnarsi in un acquisto. Questo potrebbe abbassare la barriera d’ingresso e favorire una maggiore adozione dell’ app.</p>
+    </div>
+    <div class="col">
+      <h4 class="text-center">Opportunità</h4>
+      <p class="text-center">Creare una sezione ben visibile e accessibile direttamente dalla homepage o dal menù principale, dedicata alla meditazione per famiglie e bambini. Questo renderebbe più semplice e immediato per genitori come Danielle trovare contenuti rilevanti per meditare con i propri figli.</p>
+    </div>
+    <div class="col">
+      <h4 class="text-center">Opportunità</h4>
+      <p class="text-center">Sviluppare una sezione dedicata ai principianti, con sessioni introduttive gratuite e percorsi guidati che aiutino i nuovi utenti a familiarizzare con la meditazione, rendendo l’approccio più accessibile e meno intimidatorio.</p>
+    </div>
+  </div>
+</div>
 
 
-</body>
+<!--Sitemap-->
+<div class="container">
+  <h4 class="text-center">Nuova site map</h4>
+  <img src="Assets/img/Sitemap.jpg" class="single-image" alt="Sitemap aggioranta del sito di Buddhify" width="100%">
+</div>
+<!--Wireframe desktop-->
+<div class="container text-center">
+  <h4 class="text-center">Wireframe</h4>
+  <div class="row">
+    <div class="col">
+      <img src="Assets/img/Homepage.jpg" class="single-image" alt="Wireframe dell'homepage" width="100%">
+    </div>
+    <div class="col">
+      <img src="Assets/img/Foundations for Beginner.jpg" class="single-image" alt="Wireframe della pagina per principianti" width="100%">
+    </div>
+    <div class="col">
+      <img src="Assets/img/Try Free.jpg" class="single-image" alt="Wireframe della pagina dedicata alla prova gratuita" width="100%">
+    </div>
+  </div>
+</div>
+<!--prototype-->
+<div class="container">
+  <h4 class="text-center">Prototype</h4>
+  <video width="100%" controls>
+    <source src="assets/video/MOCKUP PORTFOLIO.mp4" type="video/mp4" title="video presentazione del prototipo desktop">
+  </video>
+</div>
+<!-- Sezione Usert test -->
+<div class="container text-center mt-5">
+  <div class="row">
+    <div class="col d-flex">
+      <h4> User test</h4>
+        <p>A seguito di un test di usabilità su cinque utenti in linea con il profilo target, sono emersi interventi mirati per migliorare il sito Buddhify: rinominare l’etichetta per i principianti, rendere più visibile la CTA “Try it for free”, usare i pulsanti ufficiali di download, riformulare la CTA “Learn More” e adottare immagini più rappresentative. L'obiettivo è ottimizzare chiarezza, navigazione ed efficacia comunicativa.</p>
+    </div>
+    <div class="col">
+      <img class="single-image" src="Assets/img/user test.png" alt="" height="250px">
+    </div>
+</div>
+</div>
+<hr>
+<!--titolo sezione UI Prototyping-->
+<div class="container text-center">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+    <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+  </svg>
+  <h2>UI PROTOTYPE</h2>
+    <p class="text-center">Daily UI</p>
+</div>
+<!--nothing-->
+<div class="container mt-5">
+  <div class="row align-items-start">
+    
+    <!-- Colonna con il testo -->
+    <div class="col-md-5">
+      <h3>NOTHING</h3>
+      <p>
+        “Nothing” è un’app innovativa progettata per promuovere il benessere mentale. L’app offre diverse funzionalità per aiutare gli utenti a integrare la mindfulness nella loro routine quotidiana, gestire lo stress e monitorare l’umore.<br>
+
+        Nella schermata principale dell’app, gli utenti possono facilmente monitorare l’umore giornaliero, selezionare l’attività di mindfulness del giorno in base al tempo disponibile e visualizzare le statistiche sull’umore per l’ultima settimana e l’ultimo mese.<br>
+        
+        La sezione Mood Tracker permette agli utenti di rispondere a cinque domande specifiche per ottenere un quadro più dettagliato del loro stato d’animo quotidiano. Inoltre, è possibile aggiungere note personali per annotare eventi o pensieri che potrebbero influenzare l’umore.</p>
+    </div>
+
+    <!-- Colonna con le immagini in orizzontale -->
+    <div class="col-md-6 d-flex justify-content-center gap-3 flex-wrap">
+      <img src="Assets/img/1.NOTHING.png" alt="prototipo interfaccia di apertura"  style="width: 30%;">
+      <img src="Assets/img/2.NOTHING.png" alt="prototipo homepage"  style="width: 30%;">
+      <img src="Assets/img/3.NOTHING.png" alt="prototipo della sezione per il monitoraggio dell'umore"  style="width: 30%;">
+    </div>
+
+  </div>
+</div>
+<br>
+<!--Quiz art-->
+<div class="container mt-5">
+  <div class="row align-items-start">
+    <!-- Colonna con le immagini in orizzontale -->
+    <div class="col-md-6 d-flex justify-content-center gap-3 flex-wrap">
+      <img src="Assets/img/1.quizart.png" alt="Prototipo interfaccia di apertura"  style="width: 30%;">
+      <img src="Assets/img/2.quizart.png" alt="Prototipo pagina di login"  style="width: 30%;">
+      <img src="Assets/img/3.quizart.png" alt="Prototipo di una schermata del quiz"  style="width: 30%;">
+    </div>
+
+    <!-- Colonna con il testo -->
+    <div class="col-md-5">
+      <h3>QUIZ ART</h3>
+      <p>
+        “Quiz Art” è un gioco online progettato per attrarre utenti interessati a un corso di storia dell’arte. L’obiettivo principale è acquisire lead qualificati attraverso un’esperienza interattiva e coinvolgente.<br>
+
+        Per partecipare, gli utenti devono scansionare un codice QR che li guiderà all’interfaccia di registrazione iniziale, dove verranno raccolti i dati di contatto per acquisire i lead.<br>       
+        Il gioco consiste in 5 brevi quiz sulla storia dell’arte. In caso di vittoria, l’utente avrà l’opportunità di ricevere il corso gratuitamente. Se l’utente non supera il quiz, riceverà un buono sconto inviato tramite messaggio WhatsApp.</p>    
+      </div>
+  </div>
+</div>
+<br>
+<!--shopping list-->
+<div class="container mt-5">
+  <div class="row align-items-start">
+    
+    <!-- Colonna con il testo -->
+    <div class="col-md-5">
+      <h3>SHOPPING LIST</h3>
+      <p>
+        “Shopping List” è un’app pensata per rendere la gestione della spesa più semplice e veloce. Gli utenti possono creare liste personalizzate e spuntare gli elementi man mano che li acquistano.<br>
+
+        Per garantire un’esperienza fluida e intuitiva, ho progettato una checklist interattiva con stati dinamici e micro-interazioni, migliorando la visibilità degli elementi completati. Grazie all’uso di componenti riutilizzabili, l’interfaccia mantiene coerenza e scalabilità, permettendo di aggiungere nuovi elementi senza compromettere il design.<br>
+        
+        Il risultato è un’app pulita, accessibile e facile da usare, che ottimizza il processo di organizzazione della spesa.</p>
+    </div>
+
+    <!-- Colonna con le immagini in orizzontale -->
+    <div class="col-md-6 d-flex justify-content-center gap-3 flex-wrap">
+      <img src="Assets/img/OPEN.png" alt="prototipo schermata di apertura"  style="width: 30%;">
+      <img src="Assets/img/HOME.png" alt="prototipo home dell'app"  style="width: 30%;">
+      <img src="Assets/img/LIST.png" alt="prototipo lista"  style="width: 30%;">
+    </div>
+  </div>
+</div>
+<!--prototipi mobile senza didascalia-->
+<div class="container text-center my-5">
+  <div class="row">
+    <div class="col-6 col-md-3">
+      <img src="Assets/img/PetVet1.png" class="img-fluid custom-img" alt="Prototipo interfaccia di apertura">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="Assets/img/PetVet2.png" class="img-fluid custom-img" alt="Prototipo interfaccia di Sign up">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="Assets/img/calculation1.png" class="img-fluid custom-img" alt="Prototipo interfaccia di apertura">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="Assets/img/calculation2.png" class="img-fluid custom-img" alt="Prototipo interfaccia per la gestione delle finanze">
+    </div>
+  </div>
+</div>
+<div class="container text-center my-5">
+  <div class="row justify-content-center">
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+      <img src="Assets/img/mockup_min.png" class="img-fluid custom-img" alt="Mockup desktop di una landing page per l'adozione di cuccioli">
+    </div>
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+      <img src="Assets/img/Landing page_min.png" class="img-fluid custom-img" alt="Landing page per l'adozione di cuccioli">
+    </div>
+  </div>
+</div>
+<hr>
+<!--graphic design-->
+<div class="container text-center">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+    <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+  </svg>
+  <h2>GRAPHIC DESIGN</h2>
+    <p class="text-center">Background</p>
+</div>
+<!--loghi-->
+<div class="container text-center my-5">
+  <div class="row">
+    <div class="col-6 col-md-3">
+      <img src="Assets/img/DIKYA_COLOR.png" class="img-fluid custom-img" alt="Logo Dikya, mio personal brand">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="Assets/img/ULIVO DI ROCCO_logo.jpg" class="img-fluid custom-img" alt="Logo del b&b Ulivo di Rocco">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="Assets/img/LA ZECCA_color.png" class="img-fluid custom-img" alt="Logo di una testata giornalistica La zecca">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="Assets/img/MEDITACTIVE_color.png" class="img-fluid custom-img" alt="Logo per un servizio di meditazione MeditActive">
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+<footer class="bg-light py-5 text-center">
+    <div class="container">
+      
+      <!-- Immagine -->
+      <div class="mb-3">
+        <img src="Assets/img/avatar.png" alt="Avatar di Deborah De Santis" width="60" height="60">
+      </div>
+  
+      <!-- Testo -->
+      <h5 class="mb-3 fw-semibold">Ti piacciono i miei lavori?</h5>
+  
+      <!-- Bottone contattami -->
+      <a href="contacts.html" class="btn btn-outline-dark rounded-pill px-4 py-2 shadow-sm fw-bold">
+        Contattami
+      </a>
+  
+      <!-- Copyright -->
+      <div class="mt-3 text-muted small">&copy; copyright 2025 | Deborah De Santis</div>
+  
+      <!-- Icone social -->
+      <div class="mt-3 d-flex justify-content-center gap-3">
+        <a href="https://www.instagram.com" target="_blank" class="text-dark fs-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <title>instagram</title>
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" class="text-dark fs-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <title>Linkedin</title>
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+      </div>
+  
+    </div>
+  </footer>
   </body>
 </html>
